@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+
+.main {
+	background: #333232;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+	margin-top: 25px;
+	font-family: "Tahoma";
+	opacity: 0.99;
+	font-size: 20px;
+	line-height: 40px;
+	cursor: default
+}
+
+header {
+	background: #050404;
+	text-align: center;
+	font-size: 25px;
+	text-align: left;
+	font-size: 16px;
+	padding: 10px;
+	color: white;
+	font-family: "Tahoma";
+	transition: 0.4s;
+	line-height: 25px;
+}
+
+header a {
+	font-family: 'Tahoma';
+	color: white;
+	text-decoration: none;
+	transition: 0.4s;
+	display: inline-block;
+	padding: 0 14px;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background-color: #17202A;
+	background-image: url("./background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 0;
+	margin: 0;
+	z-index: -1;
+	display: block;
+}
+
+div {
+	align-self: center;
+	position: center;
+	text-align: center;
+	background-position: center;
+}
+
+input {
+	border: 4px;
+	border-radius: 4px;
+}
+
+.buttonSubmit:hover {
+	background-color: #FF5733;
+	color: white;
+	transition: 300ms;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+a:hover {
+	color: #FF5733;
+	transition: 0.4s;
+}
+
+.content {
+	padding: 0 18px;
+	background-color: #1a1a1a;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	border-radius: 10px;
+}
+
+.consulta {
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	padding: 5px 5px 5px;
+}
+
+.note {
+	background-color: #000;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 20px;
+	transition: 0.5s;
+	text-shadow: 2px 2px #000;
+	border-radius: 25px;
+	font-family: 'Tahoma';
+}
+
+.note:hover {
+	background-color: #FF5733;
+	transition: 0.3s ease-out;
+}
+
+table {
+	display: center;
+	text-align: center;
+}
